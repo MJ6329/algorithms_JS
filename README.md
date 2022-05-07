@@ -2,11 +2,11 @@
 
 문제 풀면서 알게 된 정보 조각들 기록
 
-* [문자열](문자열)
+* [문자열](#문자열)
 
 # 문자열
 * 목차  
-  * [parseInt() 와 Number() 의 차이](parseInt()-와-Number()-의-차이) 
+  * [parseInt() 와 Number() 의 차이](#parseInt()-와-Number()-의-차이) 
  
  
 ## parseInt() 와 Number() 의 차이
