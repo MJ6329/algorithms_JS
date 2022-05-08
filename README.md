@@ -1,32 +1,44 @@
 # algorithms_JS
 
-문제 풀면서 알게 된 정보 조각들 기록
+* 하루에 최소 한 문제 풀기
+* 풀었던 문제 효율적인 알고리즘으로 다시 풀어보기
+* 문제 풀면서 알게 된 지식 따로 정리하기
 
-* [문자열](#문자열)
+# 목차
+- [입출력과 사칙연산](#입출력과-사칙연산)
+- [조건문](#조건문)
+- [반복문](#반복문)
+- [1차원 배열](#1차원-배열)
 
-# 문자열
-* 목차  
-  * [parseInt() 와 Number() 의 차이](#parseInt()-와-Number()-의-차이) 
+## 입출력과 사칙연산
+- [사칙연산](BaekJoon_Algorithms/10869)
  
- 
-## parseInt() 와 Number() 의 차이
-* parseInt() : 숫자(정수)만 출력.   
-```javascript
-  let test = "20세"
-  parseInt(test); //20
-  
-  let test = "올해 20세"
-  parseInt(test); //NaN (숫자로 시작해야 한다.)
-  
-  let test = "123.4567"
-  parseInt(test); // 123
-  ```
-* Number() : 문자열이 숫자 일때만 출력.
- ```javascript
-  let test = "20세"
-  Number(test); //NaN
-  
-  let test = "123.4567"
-  Number(test); // 123.4567
-  ```
-  
+## 조건문
+- [두 수 비교하기](BaekJoon_Algorithms/1330)
+- [시험 성적](BaekJoon_Algorithms/9498)
+- [윤년](BaekJoon_Algorithms/2753)
+- [사분면 고르기](BaekJoon_Algorithms/14681)
+- [알람 시계](BaekJoon_Algorithms/2884)
+- [오븐 시계](BaekJoon_Algorithms/2525)
+- [주사위 세개](BaekJoon_Algorithms/2480)
+
+## 반복문
+- [구구단](BaekJoon_Algorithms/2739)
+- [A+B -3](BaekJoon_Algorithms/10950)
+- [합](BaekJoon_Algorithms/8393)
+- [N 찍기](BaekJoon_Algorithms/2741)
+- [기찍 N](BaekJoon_Algorithms/2742)
+- [A+B -8](BaekJoon_Algorithms/11021)
+- [별 찍기-1](BaekJoon_Algorithms/2438)
+- [별 찍기-2](BaekJoon_Algorithms/2439)
+- [X보다 작은 수](BaekJoon_Algorithms/10871)
+- [더하기 사이클](BaekJoon_Algorithms/1110)
+
+## 1차원 배열
+- [최소, 최대](BaekJoon_Algorithms/10818)
+- [최댓값](BaekJoon_Algorithms/2562)
+- [숫자의 개수](BaekJoon_Algorithms/2577)
+- [나머지](BaekJoon_Algorithms/3052)
+- [평균](BaekJoon_Algorithms/1546)
+- [OX퀴즈](BaekJoon_Algorithms/8958)
+- [평균은 넘겠지](BaekJoon_Algorithms/4344)
