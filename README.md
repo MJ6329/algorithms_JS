@@ -51,4 +51,4 @@
 
 ## 함수
 
--   [셀프 넘버](BeakJoon_Algorithms/4673)
+-   [셀프 넘버](BaekJoon_Algorithms/4673)
