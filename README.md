@@ -52,3 +52,4 @@
 ## 함수
 
 -   [셀프 넘버](BaekJoon_Algorithms/4673)
+-   [한수](BaekJoon_Algorithms/1065)
