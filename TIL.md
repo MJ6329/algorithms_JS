@@ -56,10 +56,10 @@ String.charCodeAt(아스키코드 번호);
 - - -
 
 # 반복문
-- [목차](#목차)
- - [for ...in](#for-...in)
+* [목차](#목차)
+  * [for...in](#for...in)  
 
-## for ...in
+## for...in
 `for (variable in obj) {...}`
 > variable : 매 반복마다 다른 속성이름이 변수로 지정
 > object : 반복작업을 ㅜ행할 열거형 속성을 가지고 있는 객체
