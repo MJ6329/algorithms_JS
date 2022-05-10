@@ -5,12 +5,13 @@
 -   문제 풀면서 알게 된 지식 따로 정리하기
 
 # 목차
--   [TIL](TIL.md)
+
 -   [입출력과 사칙연산](#입출력과-사칙연산)
 -   [조건문](#조건문)
 -   [반복문](#반복문)
 -   [1차원 배열](#1차원-배열)
 -   [함수](#함수)
+-   [문자열](#문자열)
 
 ## 입출력과 사칙연산
 
@@ -53,3 +54,8 @@
 
 -   [셀프 넘버](BaekJoon_Algorithms/4673/app.js)
 -   [한수](BaekJoon_Algorithms/1065/app.js)
+
+## 문자열
+
+-   [아스키 코드](BaekJoon_Algorithms/11654/app.js)
+-   [숫자의 합](BaekJoon_Algorithms/11720/app.js)
