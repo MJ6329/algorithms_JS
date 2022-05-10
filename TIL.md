@@ -9,6 +9,7 @@
 # 문자열
 * [목차](#목차) 
   * [parseInt() 와 Number() 의 차이](#parseInt()-와-Number()-의-차이) 
+  * [아스키코드](#아스키코드)
  
  
 ## parseInt() 와 Number() 의 차이
@@ -30,6 +31,16 @@
   
   let test = "123.4567"
   Number(test); // 123.4567
+  ```
+  
+  ## 아스키코드
+  - charCodeAt : 문자열 => 아스키코드
+  ```javascript
+ 문자열.charCodeAt(index);
+  ```
+  - fromCharCode : 아스키코드 => 문자열
+  ```javascript
+String.charCodeAt(아스키코드 번호);
   ```
  - - - 
   
