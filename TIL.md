@@ -9,6 +9,7 @@
 # 문자열
 * [목차](#목차) 
   * [parseInt() 와 Number() 의 차이](#parseInt()-와-Number()-의-차이) 
+  * [아스키코드](#아스키코드)
  
  
 ## parseInt() 와 Number() 의 차이
@@ -31,6 +32,16 @@
   let test = "123.4567"
   Number(test); // 123.4567
   ```
+  
+  ## 아스키코드
+  - charCodeAt : 문자열 => 아스키코드
+  ```javascript
+ 문자열.charCodeAt(index);
+  ```
+  - fromCharCode : 아스키코드 => 문자열
+  ```javascript
+String.charCodeAt(아스키코드 번호);
+  ```
  - - - 
   
 # 배열
@@ -45,13 +56,13 @@
 - - -
 
 # 반복문
-- [목차](#목차)
- - [for ...in](#for-...in)
+* [목차](#목차)
+  * [for...in](#for...in)  
 
-## for ...in
+## for...in
 `for (variable in obj) {...}`
 > variable : 매 반복마다 다른 속성이름이 변수로 지정
-> object : 반복작업을 ㅜ행할 열거형 속성을 가지고 있는 객체
+> object : 반복작업을 수행 할 열거형 속성을 가지고 있는 객체
 - 객체의 키 값의 수 만큼 반복하여 작업 수행 (모든 객체에서 사용 가능)
 - 객체의 모든 열거 가능한 속성에 대해 반복
 - key값 과 value 값을 뽑아 낼 수 있음
