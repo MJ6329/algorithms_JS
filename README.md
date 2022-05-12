@@ -44,7 +44,7 @@
 
 -   [최소, 최대](BaekJoon_Algorithms/10818/app.js)
 -   [최댓값](BaekJoon_Algorithms/2562/app.js)
--   [숫자의 개수](BaekJoon_Algorithms/2577/app.js)
+-   [숫자의 개수](BaekJoon_Algorithms/2577/app.js) (Update)
 -   [나머지](BaekJoon_Algorithms/3052/app.js)
 -   [평균](BaekJoon_Algorithms/1546/app.js)
 -   [OX퀴즈](BaekJoon_Algorithms/8958/app.js)
@@ -60,3 +60,4 @@
 -   [아스키 코드](BaekJoon_Algorithms/11654/app.js)
 -   [숫자의 합](BaekJoon_Algorithms/11720/app.js)
 -   [알파벳 찾기](BaekJoon_Algorithms/10809/app.js)
+-   [문자열 반복](BaekJoon_Algorithms/2675/app.js)
