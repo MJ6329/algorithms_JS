@@ -61,4 +61,4 @@
 -   [숫자의 합](BaekJoon_Algorithms/11720/app.js)
 -   [알파벳 찾기](BaekJoon_Algorithms/10809/app.js)
 -   [문자열 반복](BaekJoon_Algorithms/2675/app.js)
--   [단어 반복](BaekJoon_Algorithms/1157/app.js)
+-   [단어 공부](BaekJoon_Algorithms/1157/app.js)
