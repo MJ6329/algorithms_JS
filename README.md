@@ -62,3 +62,4 @@
 -   [알파벳 찾기](BaekJoon_Algorithms/10809/app.js)
 -   [문자열 반복](BaekJoon_Algorithms/2675/app.js)
 -   [단어 공부](BaekJoon_Algorithms/1157/app.js)
+-   [단어의 개수](BaekJoon_Algorithms/1152/app.js)
