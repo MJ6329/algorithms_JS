@@ -64,3 +64,4 @@
 -   [단어 공부](BaekJoon_Algorithms/1157/app.js)
 -   [단어의 개수](BaekJoon_Algorithms/1152/app.js) (Update)
 -   [상수](BaekJoon_Algorithms/2908/app.js)
+-   [다이얼](BaekJoon_Algorithms/5622/app.js)
