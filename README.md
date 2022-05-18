@@ -4,7 +4,8 @@
 -   풀었던 문제 효율적인 알고리즘으로 다시 풀어보기
 -   문제 풀면서 알게 된 지식 따로 정리하기
 
-# 목차 
+# 목차
+
 -[백준](#백준)  
 -[프로그래머스](#프로그래머스)
 
@@ -12,7 +13,7 @@
 
 -   ### 입출력과 사칙연산
     -   [사칙연산](BaekJoon_Algorithms/10869/app.js)
--   ### 조건문  
+-   ### 조건문
     -   [두 수 비교하기](BaekJoon_Algorithms/1330/app.js)
     -   [시험 성적](BaekJoon_Algorithms/9498/app.js)
     -   [윤년](BaekJoon_Algorithms/2753/app.js)
@@ -20,7 +21,7 @@
     -   [알람 시계](BaekJoon_Algorithms/2884/app.js)
     -   [오븐 시계](BaekJoon_Algorithms/2525/app.js)
     -   [주사위 세개](BaekJoon_Algorithms/2480/app.js)
--   ### 반복문  
+-   ### 반복문
     -   [구구단](BaekJoon_Algorithms/2739/app.js)
     -   [A+B -3](BaekJoon_Algorithms/10950/app.js)
     -   [합](BaekJoon_Algorithms/8393/app.js)
@@ -31,7 +32,8 @@
     -   [별 찍기-2](BaekJoon_Algorithms/2439/app.js)
     -   [X보다 작은 수](BaekJoon_Algorithms/10871/app.js)
     -   [더하기 사이클](BaekJoon_Algorithms/1110/app.js)
--   ### 1차원 배열  
+-   ### 1차원 배열
+
     -   [최소, 최대](BaekJoon_Algorithms/10818/app.js)
     -   [최댓값](BaekJoon_Algorithms/2562/app.js)
     -   [숫자의 개수](BaekJoon_Algorithms/2577/app.js) (Update)
@@ -56,5 +58,5 @@
 
 ## 프로그래머스
 
-- ### Level 1
-    - [두 개 뽑아서 더하기](Programmers/두-개-뽑아서-더하기.js)
+-   ### Level 1
+    -   [두 개 뽑아서 더하기](Programmers/220519.js)
