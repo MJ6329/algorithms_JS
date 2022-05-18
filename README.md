@@ -65,3 +65,4 @@
 -   [단어의 개수](BaekJoon_Algorithms/1152/app.js) (Update)
 -   [상수](BaekJoon_Algorithms/2908/app.js)
 -   [다이얼](BaekJoon_Algorithms/5622/app.js)
+-   [크로티아 알파벳](BaekJoon_Algorithms/2941/app.js)
