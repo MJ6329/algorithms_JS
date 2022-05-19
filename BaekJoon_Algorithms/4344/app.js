@@ -25,4 +25,9 @@ function solution(numbers) {
 }
 
 // 첫째값 제거하지않고 할 수 있는방법 찾아보기
+    /* 첫 요소를 제거하는 메소드 중에 shift가 제일 빨랐음.
+    *  1. splice 보다 shift 가 빨랐다.
+    *  2. slice 로 첫 값을 뺀 새 배열을 만들어 봤는데 shift가 더 빠르다.
+    */
+
 // .length 를 쓰면 메모리를 더 잡아 먹는 거 같다
