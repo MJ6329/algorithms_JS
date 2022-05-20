@@ -55,6 +55,7 @@
     -   [상수](BaekJoon_Algorithms/2908/app.js)
     -   [다이얼](BaekJoon_Algorithms/5622/app.js)
     -   [크로티아 알파벳](BaekJoon_Algorithms/2941/app.js)
+    -   [그룹 단어 체커](BaekJoon_Algorithms/1316/app.js)
 
 ## 프로그래머스
 
