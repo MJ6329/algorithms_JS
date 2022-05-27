@@ -72,4 +72,4 @@
     -   [숫자 문자열과 영단어](Programmers/220524.js)  
     -   [체육복](Programmers/220525.js)  
     -   [크레인 인형뽑기 게임](Programmers/220526.js)  
-    -   [로또의 최고 순위와 최저 순위](Programmers/220527.js) (Ing..) 
+    -   [로또의 최고 순위와 최저 순위](Programmers/220527.js)

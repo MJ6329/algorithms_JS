@@ -1,24 +1,25 @@
-const input = [44, 1, 0, 0, 31, 25]		;
-const winInput = [31, 10, 45, 1, 6, 19]		;
-// result = [3, 5]
-
-solution(input, winInput);
+// const input = [0, 0, 0, 0, 0, 0];
+// const winInput = [1,2,3,4,5,6];
+// result = [1, 6]
 
 function solution(lottos, win_nums) {
     let answer = [];
-    let zero = lottos.filter(item => item === 0);
-    const minNum = win_nums.filter(item => lottos.includes(item));
-    const highRanking = minNum.length + zero.length;
-    if(minNum.length === 6) answer = [1,1];
-    while(minNum.length !== 6){
-        if(highRanking === 6) zero = -1;
-        console.log(zero)
+    const allZero = lottos.every(item => item === 0); //전부 0인지 확인
+    const minNum = win_nums.filter(item => lottos.includes(item)).length; // 당첨확정 번호
+    const zero = lottos.filter(item => item === 0).length; // 0이 담긴 배열
+    const highRanking = minNum + zero; // 최고당첨갯수
+    if (allZero) { // 전부 0이면 전부 맞거나 전부 틀리거나
+        answer = [1,6];
+    } else if(minNum === 6) { // 당첨확정 번호가 6개면 1등
+        answer = [1,1];
+    } else if(minNum === 0 && zero === 0) { // 당첨확정번호도 0도 없으면 낙첨확정
+        answer = [6,6];
+    } else{
         answer.push(ranking(highRanking));
-        answer.push(ranking(zero.length));
-        break;
+        answer.push(ranking(minNum)); 
+        // minNum값을 넣어줘야하는데 zero값을 넣어놔서 테스트케이스 돌리면 자꾸 실패 했다
     }
-
-    console.log(answer);
+    return answer;
 }
 
 function ranking(value) {
