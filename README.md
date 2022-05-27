@@ -1,4 +1,7 @@
 # algorithms_JS
+> Update : 재 풀이 (시간단축)  
+> Re-challenge : 다시 풀어보기  
+> Ing.. : 도전 중  
 
 -   하루에 최소 한 문제 풀기
 -   풀었던 문제 효율적인 알고리즘으로 다시 풀어보기
@@ -68,3 +71,5 @@
     -   [K번째수](Programmers/220523.js) (정렬)  
     -   [숫자 문자열과 영단어](Programmers/220524.js)  
     -   [체육복](Programmers/220525.js)  
+    -   [크레인 인형뽑기 게임](Programmers/220526.js)  
+    -   [로또의 최고 순위와 최저 순위](Programmers/220527.js) (Ing..) 
