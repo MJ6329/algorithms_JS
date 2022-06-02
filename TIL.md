@@ -11,10 +11,10 @@
 # 문자열
 
 -   [목차](#목차)
-    -   [parseInt() 와 Number() 의 차이](<#parseInt()-와-Number()-의-차이>)
+    -   [parseInt() VS Number()](#parseInt()-VS-Number())
     -   [아스키코드](#아스키코드)
 
-## parseInt() 와 Number() 의 차이
+## parseInt() VS Number() 
 
 -   parseInt() : 숫자(정수)만 출력.
 
@@ -58,7 +58,7 @@ String.charCodeAt(아스키코드 번호);
 # 배열
 
 -   [목차](#목차)
-    -   [includes()](<#includes()>)
+    -   [includes()](#includes())
 
 ## includes()
 
@@ -67,6 +67,32 @@ String.charCodeAt(아스키코드 번호);
 -   배열이 특정 요소를 포함하고 있는지 boolean 값으로 반환
 -   문자나 문자열을 비교할 때, **대소문자를 구분**
 
+## slice() VS splice() 
+star 인덱스가 음수 일 경우 배열의 끝에서부터의 길이를 나타냄  
+end 인덱스를 생략하면 배열의 끝까지를 의미
+
+-   slice()  `array.slice([start{, emd]])`  
+    - 배열을 얕게 복사해 배열객체를 반환 (원본배열 수정X) 
+    - start가 undefined면 0부터 시작  
+```javascript
+let arr = [1,2,3,4,5]
+
+let arr1 = arr.slice(2,); // [3,4,5] 
+let arr2 = arr.slice(-2); // [4,5]
+let arr3 = arr.slice(7); // []
+```  
+-   splice() `array.splice(start[, deleteCount[, addItem1[, addItem2[, ...]]]])`  
+    - 배열의 요소를 삭제, 교체, 추가하여 내용을 변경 (원본배열 수정O)  
+    - deleteCount : 생략가능
+    - addItem1...2... : 지정하지 않으면 요소 제거만 수행.
+    - 아무것도 제거하지 않았을 시 빈 배열을 반환함.
+```javascript
+let arr = [1,2,3,4,5];
+
+let arr1 = arr.splice(2, 1, 'apple'); 
+// arr = [1, 2, 'apple', 4, 5]
+// arr1 = [3]
+``` 
 ---
 
 # 반복문
