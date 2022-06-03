@@ -1,6 +1,7 @@
 # algorithms_JS
 > Update : 재 풀이 완료  
-> Re-challenge : 다시 풀어보기  
+> Refactoring : 리팩토링 업데이트  
+> Re-challenge : 다시 풀어보기(시간단축)  / Re-challenge-R : 리팩토링하기  
 > Ing.. : 도전 중  
 
 -   하루에 최소 한 문제 풀기
@@ -75,3 +76,4 @@
     -   [크레인 인형뽑기 게임](Programmers/220526.js)  
     -   [로또의 최고 순위와 최저 순위](Programmers/220527.js)  
     -   [실패율](Programmers/220601.js) (Update)
+    -   [키패드 누르기](Programmers/220603.js) (Re-challenge-R)  
