@@ -4,9 +4,14 @@
 
 # 목차
 
--   [문자열](#문자열)
--   [배열](#배열)
--   [반복문](#반복문)
+-   [문자열](#문자열)  
+    -   [parseInt() VS Number()](#parseInt()-VS-Number())
+    -   [아스키코드](#아스키코드) 
+-   [배열](#배열)  
+     -   [includes()](#includes())  
+    -   [slice() VS splice()](#slice()-VS-splice())  
+-   [반복문](#반복문)  
+    -   [for...in](#for...in)  
 
 # 문자열
 
@@ -58,7 +63,8 @@ String.charCodeAt(아스키코드 번호);
 # 배열
 
 -   [목차](#목차)
-    -   [includes()](#includes())
+    -   [includes()](#includes())  
+    -   [slice() VS splice()](#slice()-VS-splice())  
 
 ## includes()
 
@@ -98,7 +104,7 @@ let arr1 = arr.splice(2, 1, 'apple');
 # 반복문
 
 -   [목차](#목차)
-    -   [for...in](#for...in)
+    -   [for...in](#for...in)  
 
 ## for...in
 
@@ -112,10 +118,15 @@ let arr1 = arr.splice(2, 1, 'apple');
 -   key값 과 value 값을 뽑아 낼 수 있음
 
 ```javascript
-const obj = {a:1, b:2, c:3};
+const object = {a:1, b:2, c:3};
 for(const property in object){
 console.log(`${property}: ${object[property]}`);
 // a: 1
 // b: 2
 // c: 3
+
+console.log(object[property]) // 속성값만 가져 올 수 있다.
+// 1
+// 2
+// 3
 ```
