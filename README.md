@@ -69,7 +69,7 @@
 -   ### Level 1
     -   [두 개 뽑아서 더하기](Programmers/220519.js)
     -   [신규 아이디 추천](Programmers/220520.js)
-    -   [완주하지 못한 선수](Programmers/220521.js) (해시)  
+    -   [완주하지 못한 선수](Programmers/220521.js) (해시) (Update)    
     -   [K번째수](Programmers/220523.js) (정렬)  
     -   [숫자 문자열과 영단어](Programmers/220524.js)  
     -   [체육복](Programmers/220525.js)  
