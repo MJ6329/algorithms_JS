@@ -14,7 +14,6 @@ function solution(numbers, hand) {
     }
     let nowLeft = '*';
     let nowRight = '#';
-    const whichHand = hand === 'left' ? 'L' : 'R';
     numbers.forEach(item => {
         if(item === 1 || item === 4 || item === 7) {
             nowLeft = item;
@@ -38,7 +37,7 @@ function solution(numbers, hand) {
             }
             if(leftDistance === rightDistance){
                 hand === 'left' ? nowLeft = item : nowRight = item;
-                answer += whichHand;
+                answer += hand === 'left' ? 'L' : 'R';
             }
         }
         
