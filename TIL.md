@@ -5,21 +5,21 @@
 # 목차
 
 -   [문자열](#문자열)  
-    -   [parseInt() VS Number()](#parseInt()-VS-Number())
+    -   [parseInt VS Number](#parseInt-VS-Number)
     -   [아스키코드](#아스키코드) 
 -   [배열](#배열)  
-     -   [includes()](#includes())  
-    -   [slice() VS splice()](#slice()-VS-splice())  
+     -   [includes](#includes)  
+    -   [slice VS splice](#slice-VS-splice)  
 -   [반복문](#반복문)  
     -   [for...in](#for...in)  
 
 # 문자열
 
 -   [목차](#목차)
-    -   [parseInt() VS Number()](#parseInt()-VS-Number())
+    -   [parseInt VS Number](#parseInt-VS-Number)
     -   [아스키코드](#아스키코드)
 
-## parseInt() VS Number() 
+## parseInt VS Number   
 
 -   parseInt() : 숫자(정수)만 출력.
 
@@ -63,17 +63,17 @@ String.charCodeAt(아스키코드 번호);
 # 배열
 
 -   [목차](#목차)
-    -   [includes()](#includes())  
-    -   [slice() VS splice()](#slice()-VS-splice())  
+    -   [includes](#includes)  
+    -   [slice VS splice](#slice-VS-splice)  
 
-## includes()
+## includes
 
 `arr.includes(valueToFind[, fromIndex])`
 
 -   배열이 특정 요소를 포함하고 있는지 boolean 값으로 반환
 -   문자나 문자열을 비교할 때, **대소문자를 구분**
 
-## slice() VS splice() 
+## slice VS splice 
 star 인덱스가 음수 일 경우 배열의 끝에서부터의 길이를 나타냄  
 end 인덱스를 생략하면 배열의 끝까지를 의미
 
@@ -125,7 +125,7 @@ console.log(`${property}: ${object[property]}`);
 // b: 2
 // c: 3
 
-console.log(object[property]) // 속성값만 가져 올 수 있다.
+console.log(object[property]) // value 만 가져 올 수 있다.
 // 1
 // 2
 // 3
