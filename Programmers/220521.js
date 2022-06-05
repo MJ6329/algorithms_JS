@@ -1,18 +1,24 @@
 // const participant = ["mislav", "stanko", "mislav", "ana"];
 // const completion = ["stanko", "ana", "mislav"];
 
+solution(participant, completion)
+
 function solution(participant, completion) {
-     answer = '';
-    participant.sort();
-    completion.sort();
-    for(let i=0; i<participant.length; i++){
-            if(participant[i] !== completion[i]){ //정렬을 했기 때문에 하나씩 비교해서 다르면 answer에 넣어줌
-                answer = participant[i];
-                break;
-                // break를 주지 않으면 그 다음값 부터도 서로 값이 달라지기 때문에 끝내줘야 함
-                // 바로 return answer을 해줘도 된다
-                // participant 와 completion의 길이가 1 밖에 차이가 안나서 가능
-        }
+    let answer = '';
+    let members = {};
+    for (let entry of participant){ 
+        // for of 로 praticipant 배열의 요소를 하나씩 돌면서
+        // members 객체로 넣어준다 이미 존재하면(동명이인) +1
+        members[entry] = members[entry] ? members[entry] +1 :1 ;
     }
-    return answer;
+    for (let win of completion){
+        // completion의 요소를 하나씩 돌면서 해당하는 사람의 숫자를 빼줌 
+        members[win] -= 1;
+    }
+    
+    for(let key in members){
+        // 카운팅되어 있다면 완주하지 못 했단 뜻
+        if(members[key] >= 1) answer += key;
+    }
+    console.log(answer);
 }
