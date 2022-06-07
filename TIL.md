@@ -8,8 +8,9 @@
     -   [parseInt VS Number](#parseInt-VS-Number)
     -   [아스키코드](#아스키코드) 
 -   [배열](#배열)  
-     -   [includes](#includes)  
+    -   [includes](#includes)  
     -   [slice VS splice](#slice-VS-splice)  
+    -   [sort AND localeCompare](#sort-AND-localeCompare)  
 -   [반복문](#반복문)  
     -   [for...in](#for...in)  
 
@@ -65,6 +66,7 @@ String.charCodeAt(아스키코드 번호);
 -   [목차](#목차)
     -   [includes](#includes)  
     -   [slice VS splice](#slice-VS-splice)  
+    -   [sort AND localeCompare](#sort-AND-localeCompare)  
 
 ## includes
 
@@ -98,7 +100,23 @@ let arr = [1,2,3,4,5];
 let arr1 = arr.splice(2, 1, 'apple'); 
 // arr = [1, 2, 'apple', 4, 5]
 // arr1 = [3]
-``` 
+```   
+## sort AND localeCompare  
+- sort()  
+    -   한 번에 두 매개변수 값을 받아 배열의 모든 값을 비교한다.  
+```javascript
+  if(a > b) return 1; // 1 > 0  ba순
+  if(a < b) return -1; // -1 < 0 ab순
+  if(a === 0 ) return 0; // 변동없음
+```
+- localeCompare  
+    - 참조 문자열이 정렬 순서에서 지정된 문자열의 앞이나 뒤에 오는지 또는 지정된 문자열과 동일한지 여부를 나타내는 숫자를 반환  
+    > -1 또는 1 같은 정확한 반환값에 의존하지 말 것!! 일부 브라우저는 -2, 2 값을 반환 할 수도 있다.  
+ ```javascript
+  'a'.localeCompare('c') // -2 or -1
+  'c'.localeCompare('a') // 2 or 1
+  ```
+
 ---
 
 # 반복문
