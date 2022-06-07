@@ -62,7 +62,10 @@
     -   [그룹 단어 체커](BaekJoon_Algorithms/1316/app.js)
 - ### 기본 수학 1
     -   [손익분기점](BaekJoon_Algorithms/1712/app.js)
-    -   [달팽이는 올라가고 싶다](BaekJoon_Algorithms/2869/app.js)
+    -   [달팽이는 올라가고 싶다](BaekJoon_Algorithms/2869/app.js)  
+
+- ### 정렬  
+    - [단어 정렬](BaekJoon_Algorithms/1181/app.js)  
 
 ## 프로그래머스
 
