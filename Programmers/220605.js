@@ -1,5 +1,5 @@
-const progresses = [95, 90, 99, 99, 80, 99]	;
-const speeds = [1, 1, 1, 1, 1, 1];
+const progresses = [99,99,98];
+const speeds = [1, 1, 1];
 // result = [1,3,2]
 
 solution(progresses, speeds)
@@ -15,8 +15,11 @@ function solution(progresses, speeds) {
         console.log(days[complete], days[i], days.length, i)
         if(days[complete] < days[i]){
             answer.push(cnt);
+            console.log('com+cnt', cnt)
             complete += cnt;
+            console.log(complete)
             cnt = 1;
+            console.log('resetcnt', cnt)
         }else {
             cnt++;
         }
