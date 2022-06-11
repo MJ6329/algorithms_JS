@@ -1,22 +1,42 @@
-let dartResult = '10S*2D*3T#';
+const dartResult = '1S2D*3T';
+// resutl = 37
 
-let dart = dartResult.match(/\d{1,2}[STD]{1}[*#]?/gi);
-let result = [];
-let answer = 0;
-for(let i=0; i<dart.length; i++){
-    let score = dart[i].match(/\d{1,2}/g).join('')
-    let bonus = dart[i].match(/[[STD]{1}/g).join('')
-    let option = dart[i].match(/[*#]?/g).join('');
-    if(bonus === 'S') result.push(score ** 1);
-    if(bonus === 'D') result.push(score ** 2)
-    if(bonus === 'T') result.push(score ** 3)
-    if(option === '#') {
-        result[i] *= -1
+solution(dartResult);
+
+function solution(dartResult) {
+    const dart = dartResult.match(/\d{1,2}[STD]{1}[*#]?/gi);
+    const getScore = [];
+    let answer = 0;
+        for(let i = 0; i < dart.length; i++){
+            const score = parseInt(dart[i].match(/\d{1,2}/g).join(''));
+            const bonus = dart[i].match(/[[STD]{1}/g).join('');
+            const option = dart[i].match(/[*#]?/g).join('');
+            calculateBonus(bonus, score, getScore);
+            if(option) calculateOption(option, getScore, i);
+        }
+        getScore.forEach(item => answer += item);
+        console.log(answer);
     }
-    if(option === '*') {
-        result[i] *= 2
-        if(i !== 0) result[i - 1] *= 2
+
+
+function calculateBonus (str, num, res) {
+    switch (str){
+        case 'S':
+            res.push(Math.pow(num, 1));
+            break;
+        case 'D':
+            res.push(Math.pow(num, 2));
+            break;
+        case 'T':
+            res.push(Math.pow(num, 3));
+            break;
     }
 }
-result.forEach(item => answer += item);
-console.log(answer)
+
+function calculateOption (op, res, idx){
+    if(op === "#") res[idx] *= -1;
+    if(op === "*") {
+        res[idx] *= 2;
+        if(idx !== 0) res[idx - 1] *= 2;
+    }
+}
