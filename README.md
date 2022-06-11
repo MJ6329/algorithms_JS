@@ -81,6 +81,6 @@
     -   [실패율](Programmers/220601.js) (Update)
     -   [키패드 누르기](Programmers/220603.js) 
     -   [신고 결과 받기](Programmers/220604.js)  
-    -   [다트 게임](Programmers/220611.js)(Re-challenge-R)  
+    -   [다트 게임](Programmers/220611.js)(Refactoring)   
 -   ### Level 2  
     -   [기능개발](Programmers/220605.js)(Ing..)  
