@@ -89,7 +89,7 @@
     -   [체육복](Programmers/220525.js)  
     -   [크레인 인형뽑기 게임](Programmers/220526.js)  
     -   [로또의 최고 순위와 최저 순위](Programmers/220527.js)  
-    -   [실패율](Programmers/220601.js) (Update)
+    -   [실패율1](Programmers/실패율/220601.js), [실패율2](Programmers/실패율/220617.js)   (Update)
     -   [키패드 누르기](Programmers/220603.js) 
     -   [신고 결과 받기](Programmers/220604.js)  
     -   [다트 게임](Programmers/220611.js)(Refactoring)   
