@@ -21,7 +21,7 @@
     - [스택](#스택)  
 - [프로그래머스](#프로그래머스)  
     - [Lelvel 1](#Level-1)  
-    - [Lelvel 2](#Level-2)  
+    - [고득점Kit](#고득점kit)  
 ## 백준
 
 -   ### 입출력과 사칙연산
@@ -81,18 +81,22 @@
 
 ## 프로그래머스
 -   ### Level 1  
-    -   [두 개 뽑아서 더하기](Programmers/220519.js)
-    -   [신규 아이디 추천](Programmers/220520.js)
-    -   [완주하지 못한 선수](Programmers/220521.js) (해시) (Update)    
-    -   [K번째수](Programmers/220523.js) (정렬)  
-    -   [숫자 문자열과 영단어](Programmers/220524.js)  
-    -   [체육복](Programmers/220525.js)  
-    -   [크레인 인형뽑기 게임](Programmers/220526.js)  
-    -   [로또의 최고 순위와 최저 순위](Programmers/220527.js)  
-    -   [실패율1](Programmers/실패율/220601.js), [실패율2](Programmers/실패율/220617.js)   (Update)
-    -   [키패드 누르기](Programmers/220603.js) 
-    -   [신고 결과 받기](Programmers/220604.js)  
-    -   [다트 게임](Programmers/220611.js)(Refactoring)   
-    -   [비밀지도](Programmers/220612.js)   
--   ### Level 2  
-    -   [기능개발](Programmers/220605.js)(Ing..)  
+    -   [두 개 뽑아서 더하기](Programmers/Level%201/220519.js)
+    -   [신규 아이디 추천](Programmers/Level%201/220520.js)
+    -   [숫자 문자열과 영단어](Programmers/Level%201/220524.js)  
+    -   [체육복](Programmers/Level%201/220525.js)  
+    -   [크레인 인형뽑기 게임](Programmers/Level%201/220526.js)  
+    -   [로또의 최고 순위와 최저 순위](Programmers/Level%201/220527.js)  
+    -   [실패율1](Programmers/Level%201/실패율/220601.js), [실패율2](Programmers/Level%201/실패율/220617.js)   (Update)
+    -   [키패드 누르기](ProgrammersLevel%201//220603.js) 
+    -   [신고 결과 받기](Programmers/Level%201/220604.js)  
+    -   [다트 게임](Programmers/Level%201/220611.js)(Refactoring)   
+    -   [비밀지도](Programmers/Level%201/220612.js)   
+
+- ### 고득점Kit
+    - 스택/큐
+        -   [기능개발](Programmers/Kit/%EC%8A%A4%ED%83%9D%2C%ED%81%90/220605.js)(Ing..)  
+    - 정렬
+        -   [K번째수](Programmers/Kit/%EC%A0%95%EB%A0%AC/220523.js) (정렬)  
+    - 해시
+        -   [완주하지 못한 선수](Programmers/Kit/%ED%95%B4%EC%8B%9C/220521.js) (Update)    
