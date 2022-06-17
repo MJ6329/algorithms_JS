@@ -77,9 +77,9 @@
     - [단어 정렬](BaekJoon_Algorithms/1181/app.js)    
 - ### 스택  
     - [스택](BaekJoon_Algorithms/10828/app.js)    
+    - [제로](BaekJoon_Algorithms/10773/app.js)    
 
 ## 프로그래머스
-
 -   ### Level 1  
     -   [두 개 뽑아서 더하기](Programmers/220519.js)
     -   [신규 아이디 추천](Programmers/220520.js)
