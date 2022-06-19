@@ -95,7 +95,7 @@
 
 - ### 고득점Kit
     - 스택/큐
-        -   [기능개발](Programmers/Kit/%EC%8A%A4%ED%83%9D%2C%ED%81%90/220605.js) (Ing..)  
+        -   [기능개발](Programmers/Kit/%EC%8A%A4%ED%83%9D%2C%ED%81%90/220605.js)  
     - 정렬
         -   [K번째수](Programmers/Kit/%EC%A0%95%EB%A0%AC/220523.js)  
     - 해시
