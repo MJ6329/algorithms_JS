@@ -4,13 +4,15 @@ const speeds = [1, 1, 1];
 
 solution(progresses, speeds)
 
-// level2는 아직 나에겐 어렵다 나중에 다시 도전.
 // 코드를 참고해서 작성했는데도 테스트2에서 실패가 뜬다 왤까?
+// Math.ceil(100-p) / speeds[s]); => Math.ceil((100-p) / speeds[s])); 괄호를 하나 빼 먹었다..
+// 멍청한 실수 였음 
+
 function solution(progresses, speeds) {
     let answer = [];
     let complete = 0;
     let cnt = 1;
-    let days = progresses.map((p, s) => Math.ceil(100-p) / speeds[s]);
+    let days = progresses.map((p, s) => Math.ceil((100-p) / speeds[s]));
     for(let i=1; i<days.length; i++){
         console.log(days[complete], days[i], days.length, i)
         if(days[complete] < days[i]){
