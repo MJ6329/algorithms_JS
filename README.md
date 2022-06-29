@@ -58,6 +58,7 @@
 -   ### 함수
     -   [셀프 넘버](BaekJoon_Algorithms/4673/app.js)
     -   [한수](BaekJoon_Algorithms/1065/app.js)
+    -   [약수 구하기](BaekJoon_Algorithms/2501/app.js)
 -   ### 문자열
     -   [아스키 코드](BaekJoon_Algorithms/11654/app.js)
     -   [숫자의 합](BaekJoon_Algorithms/11720/app.js)
