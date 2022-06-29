@@ -80,6 +80,9 @@
     - [제로](BaekJoon_Algorithms/10773/app.js)    
     - [괄호](BaekJoon_Algorithms/9012/app.js)
 
+- ### 그리디
+    - [수들의 합](BaekJoon_Algorithms/1789/app.js)
+
 ## 프로그래머스
 -   ### Level 1  
     -   [두 개 뽑아서 더하기](Programmers/Level%201/220519.js)
