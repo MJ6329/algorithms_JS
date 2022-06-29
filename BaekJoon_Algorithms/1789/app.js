@@ -8,9 +8,8 @@ function solution(S) {
     let i = 1;
     let sum = 0;
     while(sum <= S){
-        let a = sum += i;
-        a > S ? i-- : i++;
+        let total = sum += i;
+        total > S ? i-- : i++;
     }
     console.log(i);
 }
-
