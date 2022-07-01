@@ -117,6 +117,21 @@ let arr1 = arr.splice(2, 1, 'apple');
   'c'.localeCompare('a') // 2 or 1
   ```
 
+## Object.keys/values
+- Object.keys()
+    - 객체를 구성하는 전체 키(key)를 **배열**로 얻는다
+- Object.values()
+    - 객체를 구성하는 전체 값(value)를 **배열**로 얻는다
+```javascript
+const obj = {
+    a: 1,
+    b: 2,
+    c: 3
+};
+
+console.log(Object.keys(obj)); // [a,b,c]
+console.log(Object.values(obj)); // [1,2,3]
+```
 ---
 
 # 반복문
