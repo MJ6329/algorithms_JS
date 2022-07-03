@@ -76,6 +76,7 @@
 
 - ### 정렬  
     - [단어 정렬](BaekJoon_Algorithms/1181/app.js)    
+    - [일곱 난쟁이](BaekJoon_Algorithms/2309/app.js)    
 - ### 스택  
     - [스택](BaekJoon_Algorithms/10828/app.js)    
     - [제로](BaekJoon_Algorithms/10773/app.js)    
