@@ -104,7 +104,8 @@
     -   [키패드 누르기](ProgrammersLevel%201//220603.js) 
     -   [신고 결과 받기](Programmers/Level%201/220604.js)  
     -   [다트 게임](Programmers/Level%201/220611.js)(Refactoring)   
-    -   [비밀지도](Programmers/Level%201/220612.js)   
+    -   [비밀지도](Programmers/Level%201/220612.js)  
+    - [없는 숫자 더하기](/Programmers/Level1/220704.js)   
 
 - ### Level 2
     -   [튜플](Programmers/Level2/220630.js)
