@@ -81,6 +81,7 @@
     - [일곱 난쟁이](BaekJoon_Algorithms/2309/app.js)    
     - [나이순 정렬](/BaekJoon_Algorithms/10814/app.js)  
     - [커트라인](/BaekJoon_Algorithms/25305)
+    - [N번째 큰 수](/BaekJoon_Algorithms//2693/NOTE.md)
 - ### 스택  
     - [스택](BaekJoon_Algorithms/10828/app.js)    
     - [제로](BaekJoon_Algorithms/10773/app.js)    
