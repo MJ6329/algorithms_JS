@@ -1,29 +1,31 @@
 # algorithms_JS
+
 > Update : 재 풀이 완료  
 > Refactoring : 리팩토링 업데이트  
-> Re-challenge : 다시 풀어보기(시간단축)  / Re-challenge-R : 리팩토링하기  
-> Ing.. : 도전 중  
+> Re-challenge : 다시 풀어보기(시간단축) / Re-challenge-R : 리팩토링하기  
+> Ing.. : 도전 중
 
 -   풀었던 문제 효율적인 알고리즘으로 다시 풀어보기
 -   문제 풀면서 알게 된 지식 따로 정리하기
 
 # 목차
 
-- [백준](#백준)  
-    - [입출력과 사칙연산](#입출력과-사칙연산)  
-    - [조건문](#조건문)  
-    - [반복문](#반복문)  
-    - [1차원 배열](#1차원-배열)  
-    - [함수](#함수)  
-    - [문자열](#문자열)  
-    - [기본 수학 1](#기본-수학-1)  
-    - [정렬](#정렬)  
-    - [스택](#스택)  
-    - [그리디](#그리디)
-    - [구현](#구현)
-- [프로그래머스](#프로그래머스)  
-    - [Lelvel 1](#Level-1)  
-    - [고득점Kit](#고득점kit)  
+-   [백준](#백준)
+    -   [입출력과 사칙연산](#입출력과-사칙연산)
+    -   [조건문](#조건문)
+    -   [반복문](#반복문)
+    -   [1차원 배열](#1차원-배열)
+    -   [함수](#함수)
+    -   [문자열](#문자열)
+    -   [수학](#수학)
+    -   [정렬](#정렬)
+    -   [스택](#스택)
+    -   [그리디](#그리디)
+    -   [구현](#구현)
+-   [프로그래머스](#프로그래머스)
+    -   [Lelvel 1](#Level-1)
+    -   [고득점Kit](#고득점kit)
+
 ## 백준
 
 -   ### 입출력과 사칙연산
@@ -72,50 +74,56 @@
     -   [다이얼](BaekJoon_Algorithms/5622/app.js)
     -   [크로티아 알파벳](BaekJoon_Algorithms/2941/app.js)
     -   [그룹 단어 체커](BaekJoon_Algorithms/1316/app.js)
-- ### 기본 수학 1
+-   ### 수학
+
     -   [손익분기점](BaekJoon_Algorithms/1712/app.js)
-    -   [달팽이는 올라가고 싶다](BaekJoon_Algorithms/2869/app.js)  
+    -   [달팽이는 올라가고 싶다](BaekJoon_Algorithms/2869/app.js)
+    -   [소수](/BaekJoon_Algorithms/2581/NOTE.md)
 
-- ### 정렬  
-    - [단어 정렬](BaekJoon_Algorithms/1181/app.js)    
-    - [일곱 난쟁이](BaekJoon_Algorithms/2309/app.js)    
-    - [나이순 정렬](/BaekJoon_Algorithms/10814/app.js)  
-    - [커트라인](/BaekJoon_Algorithms/25305)
-    - [N번째 큰 수](/BaekJoon_Algorithms//2693/NOTE.md)
-- ### 스택  
-    - [스택](BaekJoon_Algorithms/10828/app.js)    
-    - [제로](BaekJoon_Algorithms/10773/app.js)    
-    - [괄호](BaekJoon_Algorithms/9012/app.js)
+-   ### 정렬
+    -   [단어 정렬](BaekJoon_Algorithms/1181/app.js)
+    -   [일곱 난쟁이](BaekJoon_Algorithms/2309/app.js)
+    -   [나이순 정렬](/BaekJoon_Algorithms/10814/app.js)
+    -   [커트라인](/BaekJoon_Algorithms/25305)
+    -   [N번째 큰 수](/BaekJoon_Algorithms//2693/NOTE.md)
+-   ### 스택
 
-- ### 그리디
-    - [수들의 합](BaekJoon_Algorithms/1789/app.js)
+    -   [스택](BaekJoon_Algorithms/10828/app.js)
+    -   [제로](BaekJoon_Algorithms/10773/app.js)
+    -   [괄호](BaekJoon_Algorithms/9012/app.js)
 
-- ### 구현
-    - [과제 안 내신분...?](/BaekJoon_Algorithms/5597/NOTE.md)
-    - [쉽게 푸는 문제](/BaekJoon_Algorithms/1292/NOTE.md)
+-   ### 그리디
+
+    -   [수들의 합](BaekJoon_Algorithms/1789/app.js)
+
+-   ### 구현
+    -   [과제 안 내신분...?](/BaekJoon_Algorithms/5597/NOTE.md)
+    -   [쉽게 푸는 문제](/BaekJoon_Algorithms/1292/NOTE.md)
 
 ## 프로그래머스
-- ### 고득점Kit
-    - 스택/큐
-        -   [기능개발](Programmers/Kit/%EC%8A%A4%ED%83%9D%2C%ED%81%90/220605.js) (Refactoring)  
-    - 정렬
-        -   [K번째수](Programmers/Kit/%EC%A0%95%EB%A0%AC/220523.js)  
-    - 해시
-        -   [완주하지 못한 선수](Programmers/Kit/%ED%95%B4%EC%8B%9C/220521.js) (Update)   
+
+-   ### 고득점Kit
+    -   스택/큐
+        -   [기능개발](Programmers/Kit/%EC%8A%A4%ED%83%9D%2C%ED%81%90/220605.js) (Refactoring)
+    -   정렬
+        -   [K번째수](Programmers/Kit/%EC%A0%95%EB%A0%AC/220523.js)
+    -   해시
+        -   [완주하지 못한 선수](Programmers/Kit/%ED%95%B4%EC%8B%9C/220521.js) (Update)
         -   [폰켓몬](/Programmers/Kit/%ED%95%B4%EC%8B%9C/%ED%8F%B0%EC%BC%93%EB%AA%AC/)
--   ### Level 1  
+-   ### Level 1
+
     -   [두 개 뽑아서 더하기](Programmers/Level%201/220519.js)
     -   [신규 아이디 추천](Programmers/Level%201/220520.js)
-    -   [숫자 문자열과 영단어](Programmers/Level%201/220524.js)  
-    -   [체육복](Programmers/Level%201/220525.js)  
-    -   [크레인 인형뽑기 게임](Programmers/Level%201/220526.js)  
-    -   [로또의 최고 순위와 최저 순위](Programmers/Level%201/220527.js)  
-    -   [실패율1](Programmers/Level%201/실패율/220601.js), [실패율2](Programmers/Level%201/실패율/220617.js)   (Update)
-    -   [키패드 누르기](ProgrammersLevel%201//220603.js) 
-    -   [신고 결과 받기](Programmers/Level%201/220604.js)  
-    -   [다트 게임](Programmers/Level%201/220611.js)(Refactoring)   
-    -   [비밀지도](Programmers/Level%201/220612.js)  
-    - [없는 숫자 더하기](/Programmers/Level1/220704.js)   
+    -   [숫자 문자열과 영단어](Programmers/Level%201/220524.js)
+    -   [체육복](Programmers/Level%201/220525.js)
+    -   [크레인 인형뽑기 게임](Programmers/Level%201/220526.js)
+    -   [로또의 최고 순위와 최저 순위](Programmers/Level%201/220527.js)
+    -   [실패율1](Programmers/Level%201/실패율/220601.js), [실패율2](Programmers/Level%201/실패율/220617.js) (Update)
+    -   [키패드 누르기](ProgrammersLevel%201//220603.js)
+    -   [신고 결과 받기](Programmers/Level%201/220604.js)
+    -   [다트 게임](Programmers/Level%201/220611.js)(Refactoring)
+    -   [비밀지도](Programmers/Level%201/220612.js)
+    -   [없는 숫자 더하기](/Programmers/Level1/220704.js)
 
-- ### Level 2
+-   ### Level 2
     -   [튜플](Programmers/Level2/220630.js)
