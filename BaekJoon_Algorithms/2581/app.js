@@ -8,8 +8,9 @@ let input = fs
     .split("\n")
     .map((item) => +item);
 
-const [minNum, maxMun] = input;
-let arr = [];
+const [minNum, maxNum] = input;
+
+solution(minNum, maxNum);
 
 function isPrimeNumber(num) {
     if (num === 1) {
@@ -24,18 +25,18 @@ function isPrimeNumber(num) {
     return true;
 }
 
-for (let i = minNum; i <= maxMun; i++) {
-    if (isPrimeNumber(i)) {
-        arr.push(i);
+function solution(min, max) {
+    let arr = [];
+    for (let i = min; i <= max; i++) {
+        if (isPrimeNumber(i)) {
+            arr.push(i);
+        }
+    }
+    if (arr.length === 0) {
+        console.log(-1);
+    } else {
+        const total = arr.reduce((acc, cur) => (acc += cur), 0);
+        console.log(total);
+        console.log(arr[0]);
     }
 }
-
-function printResult(arr) {
-    let total = 0;
-    arr.forEach((item) => (total += item));
-    console.log(total);
-    console.log(arr[0]);
-}
-
-arr.length === 0 ? console.log(-1) : printResult(arr);
-
