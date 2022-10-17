@@ -1,12 +1,8 @@
 # algorithms_JS
 
 > Update : 재 풀이 완료  
-> Refactoring : 리팩토링 업데이트  
-> Re-challenge : 다시 풀어보기(시간단축) / Re-challenge-R : 리팩토링하기  
-> Ing.. : 도전 중
+> Refactor : 리팩토링 업데이트  
 
--   풀었던 문제 효율적인 알고리즘으로 다시 풀어보기
--   문제 풀면서 알게 된 지식 따로 정리하기
 
 # 목차
 
@@ -86,6 +82,7 @@
     -   [나이순 정렬](/BaekJoon_Algorithms/10814/app.js)
     -   [커트라인](/BaekJoon_Algorithms/25305)
     -   [N번째 큰 수](/BaekJoon_Algorithms//2693/NOTE.md)
+    -   [좌표 정렬하기](/BaekJoon_Algorithms/11650/NOTE.md)
 -   ### 스택
 
     -   [스택](BaekJoon_Algorithms/10828/app.js)
@@ -104,7 +101,7 @@
 
 -   ### 고득점Kit
     -   스택/큐
-        -   [기능개발](Programmers/Kit/%EC%8A%A4%ED%83%9D%2C%ED%81%90/220605.js) (Refactoring)
+        -   [기능개발](Programmers/Kit/%EC%8A%A4%ED%83%9D%2C%ED%81%90/220605.js) (Refactor)
     -   정렬
         -   [K번째수](Programmers/Kit/%EC%A0%95%EB%A0%AC/220523.js)
     -   해시
@@ -112,7 +109,7 @@
         -   [폰켓몬](/Programmers/Kit/%ED%95%B4%EC%8B%9C/%ED%8F%B0%EC%BC%93%EB%AA%AC/)
 -   ### Level 1
 
-    -   [두 개 뽑아서 더하기](Programmers/Level%201/220519.js)
+    -   [두 개 뽑아서 더하기](/Programmers/Level1/%EB%91%90%20%EA%B0%9C%20%EB%BD%91%EC%95%84%EC%84%9C%20%EB%8D%94%ED%95%98%EA%B8%B0/NOTE.md) (Refactor)
     -   [신규 아이디 추천](Programmers/Level%201/220520.js)
     -   [숫자 문자열과 영단어](Programmers/Level%201/220524.js)
     -   [체육복](Programmers/Level%201/220525.js)
@@ -121,7 +118,7 @@
     -   [실패율1](Programmers/Level%201/실패율/220601.js), [실패율2](Programmers/Level%201/실패율/220617.js) (Update)
     -   [키패드 누르기](ProgrammersLevel%201//220603.js)
     -   [신고 결과 받기](Programmers/Level%201/220604.js)
-    -   [다트 게임](Programmers/Level%201/220611.js)(Refactoring)
+    -   [다트 게임](Programmers/Level%201/220611.js)(Refactor)
     -   [비밀지도](Programmers/Level%201/220612.js)
     -   [없는 숫자 더하기](/Programmers/Level1/220704.js)
 
