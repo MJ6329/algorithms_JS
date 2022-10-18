@@ -1,22 +1,24 @@
-const fs = require('fs');
-const filePath = process.platform === 'linux' ? '/dev/stdin' : './input.txt';
-let input = fs.readFileSync(filePath).toString().split('\n').map(item => +item);
+const fs = require("fs");
+const filePath = process.platform === "linux" ? "/dev/stdin" : "./input.txt";
+let input = fs
+    .readFileSync(filePath)
+    .toString()
+    .trim()
+    .split("\n")
+    .map((item) => +item);
 
-solution(input);
+console.log(solution(input));
 
 function solution(numbers) {
-    let nums = [];
-    const N = numbers.shift();
-    for(let i=0; i<N; i++){
-        if( numbers[i] !== 0) {
-            nums.push(numbers[i]);
-        } else {
-            nums.pop();
+    const [N, ...numberList] = numbers;
+    const numberArray = [];
+    numberList.forEach((number) => {
+        if (number === 0) {
+            numberArray.pop();
         }
-        
-    }
-    const answer = nums.reduce((acc, curr) => {
-        return acc + curr;
-    }, 0);
-    console.log(answer);
-};
+        if (number) {
+            numberArray.push(number);
+        }
+    });
+    return numberArray.reduce((acc, cur) => acc + cur, 0);
+}

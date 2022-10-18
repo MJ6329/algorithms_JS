@@ -85,7 +85,7 @@
 -   ### 스택
 
     -   [스택](BaekJoon_Algorithms/10828/app.js)
-    -   [제로](BaekJoon_Algorithms/10773/app.js)
+    -   [제로](BaekJoon_Algorithms/10773/NOTE.md) (Refactor)
     -   [괄호](BaekJoon_Algorithms/9012/app.js)
 
 -   ### 그리디
