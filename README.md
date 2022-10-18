@@ -1,8 +1,7 @@
 # algorithms_JS
 
 > Update : 재 풀이 완료  
-> Refactor : 리팩토링 업데이트  
-
+> Refactor : 리팩토링 업데이트
 
 # 목차
 
@@ -94,6 +93,7 @@
     -   [수들의 합](BaekJoon_Algorithms/1789/app.js)
 
 -   ### 구현
+    -   [음계](/BaekJoon_Algorithms/2920/NOTE.md) (Refactor)
     -   [과제 안 내신분...?](/BaekJoon_Algorithms/5597/NOTE.md)
     -   [쉽게 푸는 문제](/BaekJoon_Algorithms/1292/NOTE.md)
 
