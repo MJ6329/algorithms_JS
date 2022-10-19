@@ -42,7 +42,7 @@
     -   [A+B -8](BaekJoon_Algorithms/11021/app.js)
     -   [별 찍기-1](BaekJoon_Algorithms/2438/app.js)
     -   [별 찍기-2](BaekJoon_Algorithms/2439/app.js)
-    -   [X보다 작은 수](BaekJoon_Algorithms/10871/app.js)
+    -   [X보다 작은 수](BaekJoon_Algorithms/10871/NOTE.md) (Refactor)
     -   [더하기 사이클](BaekJoon_Algorithms/1110/app.js)
 -   ### 1차원 배열
 
