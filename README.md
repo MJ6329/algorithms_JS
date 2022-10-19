@@ -50,7 +50,7 @@
     -   [최댓값](BaekJoon_Algorithms/2562/app.js)
     -   [숫자의 개수](BaekJoon_Algorithms/2577/app.js) (Update)
     -   [나머지](BaekJoon_Algorithms/3052/app.js)
-    -   [평균](BaekJoon_Algorithms/1546/app.js)
+    -   [평균](BaekJoon_Algorithms/1546/NOTE.md) (Refactor)
     -   [OX퀴즈](BaekJoon_Algorithms/8958/app.js)
     -   [평균은 넘겠지](BaekJoon_Algorithms/4344/app.js) (Update)
 
