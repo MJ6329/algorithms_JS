@@ -94,7 +94,7 @@
 
 -   ### 구현
     -   [음계](/BaekJoon_Algorithms/2920/NOTE.md) (Refactor)
-    -   [과제 안 내신분...?](/BaekJoon_Algorithms/5597/NOTE.md)
+    -   [과제 안 내신분...?](/BaekJoon_Algorithms/5597/NOTE.md) (Refactor)
     -   [쉽게 푸는 문제](/BaekJoon_Algorithms/1292/NOTE.md)
 
 ## 프로그래머스

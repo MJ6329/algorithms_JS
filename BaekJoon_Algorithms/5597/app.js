@@ -1,16 +1,14 @@
-const fs = require('fs');
-const filePath = process.platform === 'linux' ? '/dev/stdin' : './input.txt';
-let input = fs.readFileSync(filePath).toString().trim().split('\n').map(item => +item); 
+const fs = require("fs");
+const filePath = process.platform === "linux" ? "/dev/stdin" : "./input.txt";
+let input = fs
+    .readFileSync(filePath)
+    .toString()
+    .trim()
+    .split("\n")
+    .map((item) => +item);
 
-solution(input);
+const answer = Array.from({ length: 30 }, (v, i) => i + 1)
+    .filter((number) => !input.includes(number))
+    .join("\n");
 
-function solution(N) {
-    let result = [];
-    for(let i=1; i<=30; i++){
-        if(!N.includes(i)) {
-            console.log(i)
-            result.push(i)
-        }
-        if(result.length === 2) break;
-    }
-};
+console.log(answer);
