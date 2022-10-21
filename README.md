@@ -72,7 +72,7 @@
 -   ### 수학
 
     -   [손익분기점](BaekJoon_Algorithms/1712/app.js)
-    -   [달팽이는 올라가고 싶다](BaekJoon_Algorithms/2869/app.js)
+    -   [달팽이는 올라가고 싶다](BaekJoon_Algorithms/2869/NOTE.md) (Refactor)
     -   [소수](/BaekJoon_Algorithms/2581/NOTE.md)
 
 -   ### 정렬
