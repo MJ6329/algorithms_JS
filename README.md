@@ -101,6 +101,7 @@
 
 -   ### 고득점Kit
     -   스택/큐
+        - [같은 숫자는 싫어](/Programmers/Kit/%EC%8A%A4%ED%83%9D%2C%ED%81%90/221021.js)
         -   [기능개발](Programmers/Kit/%EC%8A%A4%ED%83%9D%2C%ED%81%90/220605.js) (Refactor)
     -   정렬
         -   [K번째수](Programmers/Kit/%EC%A0%95%EB%A0%AC/220523.js)
