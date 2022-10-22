@@ -52,7 +52,7 @@
     -   [나머지](BaekJoon_Algorithms/3052/app.js)
     -   [평균](BaekJoon_Algorithms/1546/NOTE.md) (Refactor)
     -   [OX퀴즈](BaekJoon_Algorithms/8958/app.js)
-    -   [평균은 넘겠지](BaekJoon_Algorithms/4344/app.js) (Update)
+    -   [평균은 넘겠지](BaekJoon_Algorithms/4344/NOTE.md) (Update), (Refactor)
 
 -   ### 함수
     -   [셀프 넘버](BaekJoon_Algorithms/4673/app.js)
