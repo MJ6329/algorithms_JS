@@ -82,6 +82,7 @@
     -   [커트라인](/BaekJoon_Algorithms/25305)
     -   [N번째 큰 수](/BaekJoon_Algorithms//2693/NOTE.md)
     -   [좌표 정렬하기](/BaekJoon_Algorithms/11650/NOTE.md)
+    -   [세 수](/BaekJoon_Algorithms/10817/app.js)
 -   ### 스택
 
     -   [스택](BaekJoon_Algorithms/10828/app.js)
@@ -101,7 +102,7 @@
 
 -   ### 고득점Kit
     -   스택/큐
-        - [같은 숫자는 싫어](/Programmers/Kit/%EC%8A%A4%ED%83%9D%2C%ED%81%90/221021.js)
+        -   [같은 숫자는 싫어](/Programmers/Kit/%EC%8A%A4%ED%83%9D%2C%ED%81%90/221021.js)
         -   [기능개발](Programmers/Kit/%EC%8A%A4%ED%83%9D%2C%ED%81%90/220605.js) (Refactor)
     -   정렬
         -   [K번째수](Programmers/Kit/%EC%A0%95%EB%A0%AC/220523.js)
